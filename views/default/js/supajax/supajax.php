@@ -419,8 +419,8 @@ jQuery(document).ready(function($) {
         var selected_panel = $('body').find('#easy-tabs .panel-container > div.elgg-state-selected');
 //alert(selected_panel.attr('id'));
 //alert(selected_tab.attr('data-target'));
-alert(selected_panel.attr('id'));
-alert(selected_tab.attr('href'));
+//alert(selected_panel.attr('id'));
+//alert(selected_tab.attr('href'));
     //    $('.supajax-filter-button').css('font-size','200%!important');
         $(selected_panel).load(selected_tab.attr('href'),function(response, status, xhr)
         {
